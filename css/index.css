@@ -134,7 +134,7 @@ body {
 .right-side-hero-img {
   width: 100%;
   margin-top: -70px;
-  opacity: 0%;
+  opacity: 1;
   will-change: transform;
 }
 .features-main-wrapper {
@@ -186,7 +186,7 @@ body {
   color: var(--Dark-Blue);
   margin-bottom: 15px;
   font-size: 35px;
-  opacity: 0;
+  opacity: 1;
   will-change: transform;
 }
 .category-main {
