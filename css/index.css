@@ -75,7 +75,7 @@ body {
   width: 600px;
   border-radius: 200px 0px 0px 200px;
   height: 400px;
-  will-change: auto;
+  will-change: transform;
 }
 .hero-section-ekam {
   margin-top: 80px;
@@ -98,12 +98,15 @@ body {
   font-weight: bold;
   margin-bottom: 20px;
   width: 100%;
+  will-change: transform;
 }
 .main-section-para {
   color: var(--Grayish-blue);
   line-height: 1.4;
   margin-bottom: 40px;
   width: 100%;
+
+  will-change: transform;
 }
 .hero-section-button {
   padding: 12px 25px;
@@ -132,6 +135,7 @@ body {
   width: 100%;
   margin-top: -70px;
   opacity: 0%;
+  will-change: transform;
 }
 .features-main-wrapper {
   text-align: center;
@@ -183,6 +187,7 @@ body {
   margin-bottom: 15px;
   font-size: 35px;
   opacity: 0;
+  will-change: transform;
 }
 .category-main {
   position: relative;
